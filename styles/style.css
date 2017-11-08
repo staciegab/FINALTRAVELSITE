@@ -245,25 +245,25 @@ text-align: center;
 }
 /*--------------------------------continents----------------------------------*/
 .aussiepic{
-  background-image: url(/photos/aussie.jpg);
+  background-image: url("/photos/aussie.jpg");
 }
 .asiapic{
-  background-image: url(/photos/asia.jpg)
+  background-image: url("/photos/asia.jpg")
 }
 .eurpic{
-  background-image: url(/photos/europe.jpg)
+  background-image: url("/photos/europe.jpg")
 }
 .napic{
-  background-image: url(/photos/NA.jpg)
+  background-image: url("/photos/NA.jpg")
 }
 .sapic{
-  background-image: url(/photos/SA.jpg)
+  background-image: url("/photos/SA.jpg")
 }
 .africapic{
-  background-image: url(/photos/africa.jpg)
+  background-image: url("/photos/africa.jpg")
 }
 .arubapic{
-  background-image: url(/photos/aruba.jpg);
+  background-image: url("/photos/aruba.jpg");
 }
 
 /*----------------------------country----------------------------------------*/
