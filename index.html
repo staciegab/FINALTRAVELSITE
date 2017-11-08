@@ -25,17 +25,18 @@ layout: default
     <section id="history">
             <h2>  </h2>
             <div class="grid">
+              {% for cont in site.countries %}
               <div class="col-4">
-                <a href="africa.html">
-                <div class="contbox africapic">
-                  <h3>Africa</h3>
+                <a href="{{cont.url}}">
+                <div class="contbox {{cont.bgpic}}">
+                  <h3>{{cont.title}}</h3>
                   <p>
                     Explore
                   </p>
                 </div>
                 </a>
               </div>
-
+              {% endfor %}
               <div class="col-4">
                 <a href="australia.html">
                 <div class="contbox aussiepic">
